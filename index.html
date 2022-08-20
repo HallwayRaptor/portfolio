@@ -4,6 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500&family=Silkscreen:wght@400;700&display=swap&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+		<!-- CUSTOM STYLES -->
 		<link rel="stylesheet" href="style.css" />
 		<title>HallwayRaptor</title>
 	</head>
@@ -11,16 +18,42 @@
 		<!-- NAVBAR -->
 		<nav id="navbar" class="nav">
 			<ul class="nav-list">
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#skills">Skills</a></li>
+				<li><a href="#about">
+					<span class="code">&lt;</span>
+					About
+					<span class="code">&gt;</span>
+				</a></li>
+				<li><a href="#projects">
+					<span class="code">&lt;</span>
+					Projects
+					<span class="code">&gt;</span>
+				</a></li>
+				<li><a href="#skills">
+					<span class="code">&lt;</span>
+						Skills
+					<span class="code">&gt;</span>
+				</a></li>
+				<li><a href="#contact">
+					<span class="code">&lt;</span>
+						Contact
+					<span class="code">&gt;</span>
+				</a></li>
 			</ul>
 		</nav>
 
 		<!-- About Section -->
 		<section id="about" class="about-section">
-			<h1>Hi I'm Rob</h1>
-			<p>a web developer</p>
+			<h1 class="about-title">
+				<span class="code">&lt;</span><span class="tag">name</span><span class="code">&gt;</span><span id="name">Rob Whelan</span><span class="code">&lt;</span><span class="code">&#47;</span><span class="tag">name</span><span class="code">&gt;</span>
+			</h1>
+			<p>
+				<span class="code">&lt;</span><span class="tag">role</span>
+				<span class="code">&gt;</span><span class="role">Web Developer</span><span class="code">&lt;&#47;</span><span class="tag">role</span><span class="code">&gt;</span>
+			</p>
+			<p class="tooltip-top" id="bio">
+				I'm a developer specializing in front end web development. I focus on UI design, animations, and responsive layouts.
+			</p>
+				<a href="#projects" class="thick-arrow-down"></a>
 		</section>
 
 		<!-- Projects Section -->
@@ -33,7 +66,7 @@
 					target="_blank"
 					class="project project-tile"
 				>
-					<img class="project-image" src="images/penguin.png" alt="Penguin" />
+					<img id="penguin-project" class="project-image" src="images/penguin.png" alt="Penguin" />
 					<p class="project-title">
 						<span class="code">&lt;</span>
 						CSS Penguin
@@ -46,7 +79,7 @@
 					target="_blank"
 					class="project project-tile"
 				>
-					<img class="project-image" src="images/library.png" alt="Penguin" />
+					<img id="library-project" class="project-image" src="images/library.png" alt="Penguin" />
 					<p class="project-title">
 						<span class="code">&lt;</span>
 						Bookshelf
