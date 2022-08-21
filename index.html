@@ -26,9 +26,9 @@
 		<nav id="navbar" class="nav">
 			<ul class="nav-list">
 				<li>
-					<a href="#about">
+					<a href="#home">
 						<span class="code">&lt;</span>
-						About
+						Home
 						<span class="code">&gt;</span>
 					</a>
 				</li>
@@ -40,9 +40,9 @@
 					</a>
 				</li>
 				<li>
-					<a href="#skills">
+					<a href="#about">
 						<span class="code">&lt;</span>
-						Skills
+						About
 						<span class="code">&gt;</span>
 					</a>
 				</li>
@@ -56,9 +56,9 @@
 			</ul>
 		</nav>
 
-		<!-- About Section -->
-		<section id="about" class="about-section">
-			<h1 class="about-title">
+		<!-- Homed Section -->
+		<section id="home" class="home-section">
+			<h1 class="home-title">
 				<span class="code">&lt;</span><span class="tag">name</span
 				><span class="code">&gt;</span><span id="name">Rob Whelan</span
 				><span class="code">&lt;</span><span class="code">&#47;</span
@@ -140,29 +140,69 @@
 
 
 
-		<!-- Skills section -->
+		<!-- About section -->
 
-	<section id="skills" class="skills-section">
-		<h2 class="skills-section-header"><span class="code">&lt;</span><span class="tag">section</span><span class="code">&gt;</span><span id="name">Skills</span><span class="code">&lt;&#47;</span><span class="tag">section</span><span class="code">&gt;</span>
+	<section id="about" class="about-section">
+		<h2 class="about-section-header"><span class="code">&lt;</span><span class="tag">section</span><span class="code">&gt;</span><span id="name">About</span><span class="code">&lt;&#47;</span><span class="tag">section</span><span class="code">&gt;</span>
 		</h2>
 
-		<div class="skills-grid">
+		<div class="about-grid">
 			<div class="profile">
-				<div class="profile-username">
-					<p><strong>hallwayRaptor</strong></p>
-					<p>web developer</p>
-				</div>
-				<div class="profile-avatar">
-					<img src="images/avatar.png" alt="hallway raptor avatar">
-				</div>
 				<div class="bio">
-					<div class="profile-name"><p><span>Name: </span>Rob Whelan</p></div>
-					<div class="country"><p><span>Country: </span>Canada</p></div>
-					<div class="level"><span>Level: </span>32</div>
-					<div class="experience"><p><span>Experience:</span> 1 year</p></div>
+					<table class="bio-table">
+						<tbody>
+							<tr><th class="table-head" colspan="2">hallwayRaptor</th></tr>
+							<tr><td class="table-subhead" colspan="2">Web Developer</td></tr>
+							<tr><td colspan="2">
+								<img src="/images/avatar.png" alt="image of penguin">
+							</td></tr>
+							<tr><th>Name</th><td>Rob Whelan</td></tr>
+							<tr><th>Country</th><td>Canada</td></tr>
+							<tr><th>Level</th><td>32</td></tr>
+							<tr><th>Dev Exp</th><td>1 year</th></tr>
+							<tr><th colspan="2"><hr></td></tr>
+							<tr><th class="table-head" colspan="2">Tools</th></tr>
+							<tr><th>Editor</th><td>VS Code</td></tr>
+							<tr><th>OS</th><td>Windows 10</td></tr>
+							<tr><th></th><td>MacOS 12</td></tr>
+							<tr><th></th><td>Arch Linux</td></tr>
+							<tr><th></th><td>Pop!OS 22.04</td></tr>
+						</tbody>
+					</table>
 				</div>
+				<div class="tools"></div>
 			</div>
 			<div class="stats">
+				<div class="stat">
+						<h4>HTML</h4>
+						<div class="stat-container">
+							<div class="stat-bar stat-bar-html">80</div>
+						</div>
+					</div>
+				<div class="stat">
+					<h4>CSS</h4>
+					<div class="stat-container">
+						<div class="stat-bar stat-bar-css">70</div>
+					</div>
+				</div>
+				<div class="stat">
+					<h4>JavaScript</h4>
+					<div class="stat-container">
+						<div class="stat-bar stat-bar-js">60</div>
+					</div>
+				</div>
+				<div class="stat">
+					<h4>React</h4>
+					<div class="stat-container">
+						<div class="stat-bar stat-bar-react">20</div>
+					</div>
+				</div>
+				<div class="stat">
+					<h4>Photoshop</h4>
+					<div class="stat-container">
+						<div class="stat-bar stat-bar-ps">90</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -174,6 +214,6 @@
 
 
 		<!-- Contact Section -->
-		<section id="skills"></section>
+		<section id="Contact"></section>
 	</body>
 </html>
